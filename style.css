@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+   
+  
+    text-align: center;
+ background-image: url(https://wallpapercave.com/wp/ibG1tbs.jpg);
+ background-position: center;
+ background-size: contain;
+    
+    
+}
+
+#confetti{
+    height: 0;
+    width: 0;
+}
+h1{
+    font-family: cursive;
+    font-size: xxx-large;
+    color: white;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center; 
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height:18vmin ;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 9vmin;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff,  0 0 5px #00ffff,  0 0 5px #00ffff ;
+    background-color: #bcbaee;
+    cursor: pointer;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* @keyframes smooth{
+    from{height:0;}
+
+    to{height:100vmin;}
+} */
+
+
+
+#msg{
+    color:#fff;
+   font-size: 9rem;
+   font-family: cursive;
+}
+
+@media only screen and(max-width:1090px)
+{
+    #msg{
+        font-size: 6rem;
+    }
+
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+.hide{
+    display: none;
+}
